@@ -25,7 +25,7 @@
 &kp TAB    &kp Q   &kp W   &kp E     &kp R     &kp T                                 &kp Y   &kp U   &kp I      &kp O    &kp P     &kp BACKSPACE
 &kp LSHFT  &kp A   &kp S   &kp D     &kp F     &kp G                                 &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z   &kp X   &kp C     &kp V     &kp B      &kp BACKSPACE    &kp RBKT  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                           &kp LALT  &kp LGUI  &kp ENTER  &kp SPACE        &kp RET   &mo 0   &mo 1   &mo 2
+                           &kp LALT  &kp LGUI  &kp ENTER  &kp SPACE        &kp RET   &tog 0  &tog 1  &tog 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -44,7 +44,7 @@
 &kp TAB         &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                            &trans  &kp LEFT_PARENTHESIS  &kp UP_ARROW    &kp RIGHT_PARENTHESIS  &trans  &bt BT_SEL 0
 &kp LEFT_SHIFT  &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD                           &trans  &kp LEFT_ARROW        &trans          &kp RIGHT_ARROW        &trans  &bt BT_SEL 1
 &kp LCTRL       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL   &kp BACKSPACE    &trans  &trans  &kp LEFT_BRACKET      &kp DOWN_ARROW  &kp RIGHT_BRACKET      &trans  &bt BT_SEL 2
-                                            &kp LEFT_ALT  &kp LEFT_WIN  &kp ENTER   &kp SPACE        &trans  &trans  &trans                &trans
+                                            &kp LEFT_ALT  &kp LEFT_WIN  &kp ENTER   &kp SPACE        &trans  &tog 0  &tog 1                &tog 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
