@@ -21,11 +21,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                                  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS
-&kp TAB    &kp Q   &kp W   &kp E     &kp R   &kp T                                   &kp Y   &kp U   &kp I      &kp O    &kp P     &kp GRAVE
-&kp LSHFT  &kp A   &kp S   &kp D     &kp F   &kp G                                   &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z   &kp X   &kp C     &kp V   &kp B      &kp BACKSPACE    &kp DELETE  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-                           &kp LALT  &to 1   &kp ENTER  &kp SPACE        &kp RET     &none   &to 2   &none
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                                  &kp N6        &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS
+&kp TAB    &kp Q   &kp W   &kp E     &kp R   &kp T                                   &kp Y         &kp U   &kp I      &kp O    &kp P     &kp GRAVE
+&kp LSHFT  &kp A   &kp S   &kp D     &kp F   &kp G                                   &kp H         &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL  &kp Z   &kp X   &kp C     &kp V   &kp B      &kp BACKSPACE    &kp DELETE  &kp N         &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
+                           &kp LALT  &to 1   &kp ENTER  &kp SPACE        &kp RET     &kp LEFT_WIN  &to 2   &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -40,11 +40,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp ESC         &kp PERCENT   &kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH                                &none     &none                 &none           &none                  &none          &bt BT_SEL 0
-&kp TAB         &kp HASH      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                                &kp HOME  &kp LEFT_PARENTHESIS  &kp UP_ARROW    &kp RIGHT_PARENTHESIS  &kp PAGE_UP    &bt BT_SEL 1
-&kp LEFT_SHIFT  &kp AT_SIGN   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD                               &kp END   &kp LEFT_ARROW        &none           &kp RIGHT_ARROW        &kp PAGE_DOWN  &bt BT_SEL 2
-&kp LCTRL       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL   &kp BACKSPACE    &kp DELETE  &none     &kp LEFT_BRACKET      &kp DOWN_ARROW  &kp RIGHT_BRACKET      &none          &bt BT_CLR
-                                            &kp LEFT_ALT  &to 0         &kp ENTER   &kp SPACE        &kp ENTER   &none     &to 2                 &none
+&kp ESC         &kp PERCENT   &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS                                 &kp HOME       &none                 &none           &none                  &kp DOLLAR     &bt BT_SEL 0
+&kp TAB         &kp HASH      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                                &kp END        &kp LEFT_PARENTHESIS  &kp UP_ARROW    &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &bt BT_SEL 1
+&kp LEFT_SHIFT  &kp AT_SIGN   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD                               &kp PG_UP      &kp LEFT_ARROW        &none           &kp RIGHT_ARROW        &none          &bt BT_SEL 2
+&kp LCTRL       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL   &kp BACKSPACE    &kp DELETE  &kp PAGE_DOWN  &kp LEFT_BRACKET      &kp DOWN_ARROW  &kp RIGHT_BRACKET      &none          &bt BT_CLR
+                                            &kp LEFT_ALT  &to 0         &kp ENTER   &kp SPACE        &kp ENTER   &none          &to 2                 &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
