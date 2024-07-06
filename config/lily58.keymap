@@ -40,11 +40,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp ESC         &kp PERCENT   &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS                                 &kp HOME       &none                 &none           &none                  &kp DOLLAR     &bt BT_SEL 0
-&kp TAB         &kp HASH      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                                &kp END        &kp LEFT_PARENTHESIS  &kp UP_ARROW    &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &bt BT_SEL 1
-&kp LEFT_SHIFT  &kp AT_SIGN   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD                               &kp PG_UP      &kp LEFT_ARROW        &none           &kp RIGHT_ARROW        &none          &bt BT_SEL 2
-&kp LCTRL       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL   &kp BACKSPACE    &kp DELETE  &kp PAGE_DOWN  &kp LEFT_BRACKET      &kp DOWN_ARROW  &kp RIGHT_BRACKET      &none          &bt BT_CLR
-                                            &kp LEFT_ALT  &to 0         &kp ENTER   &kp SPACE        &kp ENTER   &none          &to 2                 &none
+&kp ESC         &kp PERCENT   &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS                                 &kp HOME       &none                 &none           &none                  &kp LC(BACKSLASH)  &bt BT_SEL 0
+&kp TAB         &kp HASH      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                                &kp END        &kp LEFT_PARENTHESIS  &kp UP_ARROW    &kp RIGHT_PARENTHESIS  &kp DOLLAR         &bt BT_SEL 1
+&kp LEFT_SHIFT  &kp AT_SIGN   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD                               &kp PG_UP      &kp LEFT_ARROW        &none           &kp RIGHT_ARROW        &kp AMPERSAND      &bt BT_SEL 2
+&kp LCTRL       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL   &kp BACKSPACE    &kp DELETE  &kp PAGE_DOWN  &kp LEFT_BRACKET      &kp DOWN_ARROW  &kp RIGHT_BRACKET      &kp CARET          &bt BT_CLR
+                                            &kp LEFT_ALT  &to 0         &kp ENTER   &kp SPACE        &kp ENTER   &kp LEFT_WIN   &to 2                 &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -59,11 +59,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &kp F7       &kp F8     &kp F9     &kp F10   &kp F11    &kp F12
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6       &kp N7     &kp N8     &kp N9    &kp N0     &trans
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans       &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
-                           &trans   &to 1    &trans   &trans    &trans  &none        &to 0      &none
+&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &kp F7        &kp F8     &kp F9     &kp F10   &kp F11    &kp F12
+&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6        &kp N7     &kp N8     &kp N9    &kp N0     &trans
+&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans        &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
+&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
+                           &trans   &to 1    &trans   &trans    &trans  &kp LEFT_WIN  &to 0      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
