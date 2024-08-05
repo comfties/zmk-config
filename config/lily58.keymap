@@ -40,11 +40,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp ESC         &kp PERCENT   &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS                                 &kp HOME       &none                 &none           &none                  &kp LC(BACKSLASH)  &bt BT_SEL 0
-&kp TAB         &kp HASH      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                                &kp END        &kp LEFT_PARENTHESIS  &kp UP_ARROW    &kp RIGHT_PARENTHESIS  &kp DOLLAR         &bt BT_SEL 1
-&kp LEFT_SHIFT  &kp AT_SIGN   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD                               &kp PG_UP      &kp LEFT_ARROW        &none           &kp RIGHT_ARROW        &kp AMPERSAND      &bt BT_SEL 2
-&kp LCTRL       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL   &kp BACKSPACE    &kp DELETE  &kp PAGE_DOWN  &kp LEFT_BRACKET      &kp DOWN_ARROW  &kp RIGHT_BRACKET      &kp CARET          &bt BT_CLR
-                                            &kp LEFT_ALT  &to 0         &kp ENTER   &kp SPACE        &kp ENTER   &kp LEFT_WIN   &to 2                 &none
+&kp ESC         &kp PERCENT   &kp SLASH        &kp ASTERISK         &kp MINUS        &kp PLUS                                 &kp HOME       &kp K_MUTE            &kp C_VOL_DN    &kp C_VOL_UP           &kp LC(BACKSLASH)  &bt BT_SEL 0
+&kp TAB         &kp HASH      &kp KP_NUMBER_7  &kp KP_NUMBER_8      &kp KP_NUMBER_9  &kp COMMA                                &kp END        &kp LEFT_PARENTHESIS  &kp UP_ARROW    &kp RIGHT_PARENTHESIS  &kp DOLLAR         &bt BT_SEL 1
+&kp LEFT_SHIFT  &kp AT_SIGN   &kp KP_NUMBER_4  &kp KP_NUMBER_5      &kp KP_NUMBER_6  &kp PERIOD                               &kp PG_UP      &kp LEFT_ARROW        &none           &kp RIGHT_ARROW        &kp AMPERSAND      &bt BT_SEL 2
+&kp LCTRL       &kp NUMBER_0  &kp KP_NUMBER_1  &kp LC(KP_NUMBER_2)  &kp KP_NUMBER_3  &kp EQUAL   &kp BACKSPACE    &kp DELETE  &kp PAGE_DOWN  &kp LEFT_BRACKET      &kp DOWN_ARROW  &kp RIGHT_BRACKET      &kp CARET          &bt BT_CLR
+                                               &kp LEFT_ALT         &to 0            &kp ENTER   &kp SPACE        &kp ENTER   &kp LEFT_WIN   &to 2                 &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
